@@ -1,2 +1,7 @@
 file one content
 file one next msg
+git init
+git add remote origin https//xyz
+git branch -M main
+git pull --rebase origin main
+git push origin main
