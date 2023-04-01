@@ -10,3 +10,4 @@ git push origin main
 git checkout origin/main
 git switch main
 ******************
+git branch -D 'branchNameToBeDeleted'
