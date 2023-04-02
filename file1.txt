@@ -9,5 +9,11 @@ git pull origin main
 git push origin main
 git checkout origin/main
 git switch main
+<<<<<<< HEAD
 ******************
 git branch -D 'branchNameToBeDeleted'
+=======
+git branch
+git branch 'new branch name to create'
+git switch 'branch name'
+>>>>>>> branchingcmds
