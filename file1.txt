@@ -1,27 +1,23 @@
-file one content
-file one next msg
+
 git init
 git add remote origin https//xyz
-git  remote remove origin 
+git remote remove origin 
 git branch -M main
+git commit -m "commit msg"
+git log
+
 git pull --rebase origin main
 git pull origin main
 git push origin main
 git checkout origin/main
 git switch main
+
 git branch
 git branch 'new branch name to create'
 git switch 'branch name'file one content
-file one next msg
-git init
-git add remote origin https//xyz
-git  remote remove origin 
-git branch -M main
-git pull --rebase origin main
-git pull origin main
-git push origin main
-git checkout origin/main
-git switch main
-******************
 git branch -D 'branchNameToBeDeleted'
+
+git merge [branchName to merge in]
+git merge --abort
+
 git diff
