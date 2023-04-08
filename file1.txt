@@ -21,3 +21,13 @@ git merge [branchName to merge in]
 git merge --abort
 
 git diff
+
+git restore fileName.txt [undo uncommitted changes to last commit]
+git log --oneline
+git restore --source HEAD~2 myfile.txt [undo changes going back 2 commits ]
+
+git reset --> will unstage all the files but keep changes in the files
+git reset [##hash##] -->         reset to given hash files wont change
+git reset [##hash##] --hard -->  reset to given hash files  changed
+
+git revert [# hash #] --> this will undo the given commit by creating a new commit
