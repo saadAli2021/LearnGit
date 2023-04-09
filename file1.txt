@@ -31,3 +31,7 @@ git reset [##hash##] -->         reset to given hash files wont change
 git reset [##hash##] --hard -->  reset to given hash files  changed
 
 git revert [# hash #] --> this will undo the given commit by creating a new commit
+
+git stash - save the working changes so to switch branches
+git stash pop - bring back the stashed changes onetime
+git stash apply - bring back changes but also keep in stash
